@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div class="start-screen" id="startScreen">
+            <h1>Welcome to Career Guidance System!</h1>
+            <button class="start-btn" onclick="startQuiz()">Get Started !</button>
+        </div>
+
+        <!-- Input Form -->
+        <div class="form-section" id="formSection">
+            <h2>Tell Us About Yourself</h2>
+            
+            <div class="form-group">
+                <label>What are your hobbies?</label>
+                <textarea id="hobbies" placeholder="e.g., Programming, Design, Research..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Your strengths?</label>
+                <textarea id="strengths" placeholder="e.g., Logical thinking, Creativity..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Areas for improvement?</label>
+                <textarea id="weaknesses" placeholder="e.g., Communication, Time management..."></textarea>
+            </div>
+
+            <button class="submit-btn" onclick="showResults()">View Results</button>
+            <div style="clear: both"></div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="result-section" id="resultSection">
+            <h2>Recommended Career Paths</h2>
+            <div id="majorsList"></div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(https://advsolutions.vn/wp-content/uploads/2020/01/phong-nen-powerpoint-khoa-hoc-41.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+    padding: 40px;
+    transition: all 0.3s ease;
+    opacity: 90%;
+}
+
+.start-screen {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.start-btn {
+    background:blue;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s;
+    opacity: 100;
+}
+
+.start-btn:hover {
+    color: black;
+    transform: scale(1.05);
+    background:  rgb(55, 0, 255);
+}
+
+.form-section {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.submit-btn {
+    background: #2196F3;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.result-section {
+    display: none;
+    margin-top: 30px;
+}
+
+.major-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #4CAF50;
+    transition: transform 0.2s;
+}
+
+.major-card:hover {
+    transform: translateX(10px);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+}
